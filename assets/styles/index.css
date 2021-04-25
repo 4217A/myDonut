@@ -1,0 +1,103 @@
+:root {
+    --mycolor: #292930;
+    --mybackgroundcolor: #f7f7f7;
+    --myheight: '0px';
+}
+
+body {
+    color: var(--mycolor);
+    background-color: var(--mybackgroundcolor);
+    font-family: quicksand;
+}
+
+.my_wrapper {   
+    /* 
+    padding-right: 1em;
+    padding-left: 1em;
+    */
+    
+    padding-top: 1em;
+
+    /*display: block;*/
+}
+
+.navbar {
+    background-color: #ff748c;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.navbar-nav > li{
+    margin-right:4px;
+  }
+
+.rr-one-top {
+    margin-top: 1.5em;
+}
+
+.rr-one {
+    margin-bottom: 10em;
+}
+
+.rr-two {
+    margin-bottom: 2em;
+}
+
+.rr-center-img {
+    margin-top: 1em;
+    max-width: 90%;
+}
+
+.badge {
+    background-color: #ff748c;
+}
+
+.rr-img {
+    margin-bottom: 2em;
+    max-width: 100%;
+}
+
+.rr-wide {
+    overflow: hidden;
+}
+
+.rr-img-wide {
+    margin-bottom: 2em;
+    max-height: 65%;
+    /* center on onverflow */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* */
+
+}
+
+/*
+.hello {
+    animation: fadeInAnimation ease-in 1s;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+*/
+
+.my_hold_footer {
+    color: #b8b8b9;
+    background-color: #141418;
+    font-size: 0.9em;
+}
+
+.my_foot {
+    margin-bottom: 0 !important;
+}
+
+/* notes 
+.div-back {
+    background-image: url("../img/test400b.png");
+}
+*/
